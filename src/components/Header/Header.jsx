@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
-import logo from "../../assets/all-images/logo.jpg"
+import logo from "../../assets/all-images/logo-2.jpg"
 
 const navLinks = [
   {
@@ -72,7 +72,7 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <img src={logo} style={{width:"30px", height:"30px"}} /> SAILINGLOC
+                    <img src={logo} style={{width:"40px", height:"40px"}} /> SAILINGLOC
                   </Link>
                 </h1>
               </div>
@@ -96,7 +96,7 @@ const Header = () => {
                   <i class="ri-time-line"></i>
                 </span>
                 <div className="header__location-content">
-                  <h4>Sunday to Friday</h4>
+                  <h4>De Dimanche a Vendredi</h4>
                   <h6>10am - 7pm</h6>
                 </div>
               </div>
