@@ -72,7 +72,7 @@ const Header = () => {
               <div className="logo">
                 <h1>
                   <Link to="/home" className=" d-flex align-items-center gap-2">
-                    <img src={logo} style={{width:"100px", height:"100px"}} />
+                    <img src={logo} className="w-50" /> SAILINGLOC
                   </Link>
                 </h1>
               </div>
