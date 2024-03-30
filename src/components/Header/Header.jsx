@@ -85,7 +85,7 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>France</h4>
-                  <h6>Saint-Denis, ile-de-france, France</h6>
+                  <h6>Dieppe, France</h6>
                 </div>
               </div>
             </Col>
@@ -110,7 +110,7 @@ const Header = () => {
             >
               <button className="header__btn btn ">
                 <Link to="/contact">
-                  <i class="ri-phone-line"></i> Request a call
+                  <i class="ri-phone-line"></i> Contactez-Nous
                 </Link>
               </button>
             </Col>

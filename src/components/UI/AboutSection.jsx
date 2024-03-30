@@ -17,15 +17,10 @@ const AboutSection = ({ aboutClass }) => {
         <Row>
           <Col lg="6" md="6">
             <div className="about__section-content">
-              <h4 className="section__subtitle">About Us</h4>
-              <h2 className="section__title">Welcome to boat rent service</h2>
+              <h4 className="section__subtitle">À propos de nous</h4>
+              <h2 className="section__title">Bienvenue chez SAILINGLOC</h2>
               <p className="section__description">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Voluptatum blanditiis esse accusantium dignissimos labore
-                laborum. Veniam, corporis mollitia temporibus, in quaerat vero
-                deleniti amet dolorem repudiandae, pariatur nam dolore! Impedit
-                neque sit ad temporibus quam similique dolor ipsam praesentium
-                sunt.
+              Chez Sailingloc , nous sommes passionnés par la voile et déterminés à partager cette passion avec nos clients. Forts d’expérience dans l’industrie maritime, nous avons créé notre entreprise pour offrir des expériences de navigation inoubliables à tous ceux qui cherchent à explorer les merveilles de l’océan. En tant que propriétaire, je met un point d’honneur à garantir que chaque voyage en mer avec nous soit non seulement sûr et confortable, mais aussi empreint de moments magiques et de découvertes inattendues. Nous sommes impatients de vous accueillir à bord et de vous aider à créer des souvenirs précieux sur les flots.
               </p>
 
               <div className="about__section-item d-flex align-items-center">
