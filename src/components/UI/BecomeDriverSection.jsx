@@ -15,7 +15,7 @@ const BecomeDriverSection = () => {
 
           <Col lg="6" md="6" sm="12">
             <h2 className="section__title become__driver-title">
-            Voulez-vous gagner avec nous ? Alors ne sois pas en retard
+            Tu veux gagner avec nous ? Alors ne sois pas en retard
             </h2>
 
             <button className="btn become__driver-btn mt-4">
