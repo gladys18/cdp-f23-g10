@@ -11,9 +11,9 @@ import img08 from "../all-images/boats-img/image6.jpeg";
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "Oceanis",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Étoile Marine",
     imgUrl: img01,
     model: "Model 3",
     price: 50,
@@ -22,14 +22,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " Naviguez vers l'aventure à bord de l'Étoile Marine, un voilier spacieux et élégant parfait pour des excursions relaxantes en mer.",
   },
 
   {
     id: 2,
-    brand: "Toyota",
+    brand: "Sea Ray",
     rating: 102,
-    carName: "Toyota Aventador",
+    carName: "Aquaventure",
     imgUrl: img02,
     model: "Model-2022",
     price: 50,
@@ -38,14 +38,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "L'Aquaventure vous promet des moments d'excitation et de plaisir sur l'eau avec son design sportif et ses performances de pointe, idéal pour les amateurs de sensations fortes.",
   },
 
   {
     id: 3,
-    brand: "BMW",
+    brand: "Jeanneau",
     rating: 132,
-    carName: "BMW X3",
+    carName: "Sérénité",
     imgUrl: img03,
     model: "Model-2022",
     price: 65,
@@ -54,14 +54,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Embarquez à bord du Sérénité et laissez-vous envelopper par une atmosphère de tranquillité et de confort, offrant une expérience de navigation paisible et sécurisée.",
   },
 
   {
     id: 4,
-    brand: "Nissan",
+    brand: "Beneteau",
     rating: 102,
-    carName: "Nissan Mercielago",
+    carName: "Horizon Azur",
     imgUrl: img04,
     model: "Model-2022",
     price: 70,
@@ -70,14 +70,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "L'Horizon Azur incarne l'élégance et la polyvalence, offrant une navigation fluide et une vue imprenable sur l'horizon, idéal pour des escapades en mer inoubliables.",
   },
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "Bavaria",
     rating: 94,
-    carName: "Ferrari Camry",
+    carName: "Marina Dream",
     imgUrl: img05,
     model: "Model-2022",
     price: 45,
@@ -86,14 +86,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Vivez le rêve nautique ultime à bord du Marina Dream, un yacht luxueux doté de commodités haut de gamme et d'un design sophistiqué, parfait pour des croisières de luxe",
   },
 
   {
     id: 6,
-    brand: "Mercedes",
+    brand: "Lagoon",
     rating: 119,
-    carName: "Mercedes Benz XC90",
+    carName: "Odyssée",
     imgUrl: img06,
     model: "Model-2022",
     price: 85,
@@ -102,14 +102,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "L'Odyssée vous emmène dans un voyage magique à travers les eaux cristallines, offrant un espace de vie spacieux et une stabilité exceptionnelle pour une expérience de navigation incomparable.",
   },
 
   {
     id: 7,
-    brand: "Audi",
+    brand: " Prestige Yachts",
     rating: 82,
-    carName: "Audi Fiesta",
+    carName: "Aqua Luxe",
     imgUrl: img07,
     model: "Model 3",
     price: 50,
@@ -118,14 +118,14 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      " L'Aqua Luxe incarne le luxe et le raffinement, offrant des équipements haut de gamme et un design élégant pour une expérience de navigation exclusivement prestigieuse.",
   },
 
   {
     id: 8,
-    brand: "Colorado",
+    brand: "Riva",
     rating: 52,
-    carName: "Rolls Royce Colorado",
+    carName: "Nautica Bliss",
     imgUrl: img08,
     model: "Model 3",
     price: 50,
@@ -134,7 +134,7 @@ const carData = [
     seatType: "Heated seats",
     automatic: "Automatic",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "Embarquez à bord du Nautica Bliss et laissez-vous transporter dans un monde de bonheur nautique, avec son style intemporel et son confort incomparable, chaque moment passé à bord est une véritable béatitude.",
   },
 ];
 

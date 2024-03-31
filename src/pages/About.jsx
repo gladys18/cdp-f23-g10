@@ -28,21 +28,15 @@ const About = () => {
             <Col lg="6" md="6" sm="12">
               <div className="about__page-content">
                 <h2 className="section__title">
-                  We Are Committed To Provide Safe Ride Solutions
+                Embarquez pour l aventure
                 </h2>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Naviguez vers l’horizon infini avec notre flotte de voiliers de première classe. Réservez dès maintenant pour une escapade en mer inoubliable.
                 </p>
 
                 <p className="section__description">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eveniet veniam assumenda aperiam accusantium ex autem
-                  perferendis repellendus nostrum delectus. Nemo et dolore est
-                  tempore rem minima adipisci magni dolorum ipsam.
+                Plongez dans l’expérience ultime de la voile avec notre sélection de voiliers haut de gamme. Que vous soyez novice ou navigateur chevronné, notre flotte vous attend pour une aventure maritime exceptionnelle.
                 </p>
 
                 <div className=" d-flex align-items-center gap-3 mt-4">
@@ -51,8 +45,8 @@ const About = () => {
                   </span>
 
                   <div>
-                    <h6 className="section__subtitle">Need Any Help?</h6>
-                    <h4>+00123456789</h4>
+                    <h6 className="section__subtitle">Besoin d'aide?</h6>
+                    <h4>+33 6 58 97 66 11</h4>
                   </div>
                 </div>
               </div>
@@ -68,7 +62,7 @@ const About = () => {
           <Row>
             <Col lg="12" className="mb-5 text-center">
               <h6 className="section__subtitle">Experts</h6>
-              <h2 className="section__title">Our Members</h2>
+              <h2 className="section__title">Nos Membres</h2>
             </Col>
             <OurMembers />
           </Row>

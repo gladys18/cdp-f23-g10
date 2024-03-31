@@ -57,8 +57,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="text-center mb-5">
-              <h6 className="section__subtitle">Come with</h6>
-              <h2 className="section__title">Hot Offers</h2>
+              <h6 className="section__subtitle">Découvrez</h6>
+              <h2 className="section__title">Nos Offres Récentes</h2>
             </Col>
 
             {carData.slice(0, 6).map((item) => (
@@ -75,7 +75,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-4 text-center">
-              <h6 className="section__subtitle">Our clients says</h6>
+              <h6 className="section__subtitle">Nos clients disent</h6>
               <h2 className="section__title">Testimonials</h2>
             </Col>
 
@@ -89,8 +89,8 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Explore our blogs</h6>
-              <h2 className="section__title">Latest Blogs</h2>
+              <h6 className="section__subtitle">Explorez nos blogs</h6>
+              <h2 className="section__title">Nos Blogs récent</h2>
             </Col>
 
             <BlogList />

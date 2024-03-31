@@ -42,10 +42,7 @@ const Testimonial = () => {
     <Slider {...settings}>
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Une aventure nautique parfaite ! Grâce à ce site, j'ai pu louer un bateau pour explorer la côte avec mes amis. La navigation était fluide, et le bateau était en parfait état. Nous avons été impressionnés par la réactivité du service client en cas de besoin. Une expérience à renouveler sans hésitation
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -53,17 +50,14 @@ const Testimonial = () => {
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <p className="section__description">Client</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        La meilleure façon de découvrir la beauté des côtes françaises ! J'ai loué un bateau pour une journée en famille et nous avons été éblouis par la qualité du service et la facilité de réservation. Des bateaux bien entretenus et un personnel amical ont rendu notre journée sur l'eau mémorable. Merci pour cette expérience exceptionnelle !
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -71,17 +65,14 @@ const Testimonial = () => {
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <p className="section__description">Client</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Une expérience inoubliable ! Louer un bateau via ce site était si facile et rapide. Le choix de bateaux était impressionnant, et le service client était excellent. Nous avons passé une journée fantastique sur l'eau. Je recommande vivement cette plateforme de location de bateaux à tous mes amis et ma famille
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -89,17 +80,14 @@ const Testimonial = () => {
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <p className="section__description">Client</p>
           </div>
         </div>
       </div>
 
       <div className="testimonial py-4 px-3">
         <p className="section__description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni
-          explicabo molestias recusandae repudiandae, dolor, sapiente placeat
-          ab, animi eum minima nulla facere aliquam aut vitae quo pariatur
-          voluptate odit?
+        Je suis un client régulier de ce site de location de bateaux et je ne suis jamais déçu ! Le processus de réservation est simple, les prix sont compétitifs et le choix de bateaux est vaste. Que ce soit pour une sortie en mer entre amis ou une journée de pêche en famille, je sais que je peux compter sur ce service fiable et de qualité.
         </p>
 
         <div className="mt-3 d-flex align-items-center gap-4">
@@ -107,7 +95,7 @@ const Testimonial = () => {
 
           <div>
             <h6 className="mb-0 mt-3">Jhon Doe</h6>
-            <p className="section__description">Customer</p>
+            <p className="section__description">Client</p>
           </div>
         </div>
       </div>

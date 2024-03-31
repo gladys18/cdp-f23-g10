@@ -71,9 +71,9 @@ const BlogDetails = () => {
 
                 {/* =============== comment form ============ */}
                 <div className="leave__comment-form mt-5">
-                  <h4>Leave a Comment</h4>
+                  <h4>Laissez un Commentaire</h4>
                   <p className="section__description">
-                    You must sign-in to make or comment a post
+                  Vous devez vous connecter pour créer ou commenter une publication
                   </p>
 
                   <Form>
@@ -91,7 +91,7 @@ const BlogDetails = () => {
                     </FormGroup>
 
                     <button className="btn comment__btn mt-3">
-                      Post a Comment
+                      Postez un Commentaire
                     </button>
                   </Form>
                 </div>

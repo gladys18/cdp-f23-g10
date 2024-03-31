@@ -8,15 +8,15 @@ import logo from "../../assets/all-images/logo-2.jpg"
 const navLinks = [
   {
     path: "/home",
-    display: "Home",
+    display: "Acceuil",
   },
   {
     path: "/about",
-    display: "About",
+    display: "A Propos",
   },
   {
     path: "/cars",
-    display: "Boat",
+    display: "Bateau",
   },
 
   {
@@ -42,9 +42,9 @@ const Header = () => {
           <Row>
             <Col lg="6" md="6" sm="6">
               <div className="header__top__left">
-                <span>Need Help?</span>
+                <span>Besoin d'aide?</span>
                 <span className="header__top__help">
-                  <i class="ri-phone-fill"></i> +1-202-555-0149
+                  <i class="ri-phone-fill"></i> +33 6 58 97 66 11
                 </span>
               </div>
             </Col>
@@ -52,11 +52,11 @@ const Header = () => {
             <Col lg="6" md="6" sm="6">
               <div className="header__top__right d-flex align-items-center justify-content-end gap-3">
                 <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-login-circle-line"></i> Login
+                  <i class="ri-login-circle-line"></i> Se connecter
                 </Link>
 
                 <Link to="#" className=" d-flex align-items-center gap-1">
-                  <i class="ri-user-line"></i> Register
+                  <i class="ri-user-line"></i> Créer un compte
                 </Link>
               </div>
             </Col>
