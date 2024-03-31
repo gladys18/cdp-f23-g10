@@ -3,8 +3,13 @@ import "../../styles/become-driver.css";
 import { Container, Row, Col } from "reactstrap";
 
 import driverImg from "../../assets/all-images/boats-img/8892821_20230606024603764_1_XLARGE.jpg";
+import Modal from 'react-modal';
+import { PDFViewer, Document, Page, Text, View, StyleSheet, BlobProvider } from '@react-pdf/renderer';
+
+
 
 const BecomeDriverSection = () => {
+  
   return (
     <section className="become__driver">
       <Container>
@@ -18,9 +23,9 @@ const BecomeDriverSection = () => {
             Tu veux gagner avec nous ? Alors ne sois pas en retard
             </h2>
 
-            <button className="btn become__driver-btn mt-4">
+            <a href="permit"><button className="btn become__driver-btn mt-4">
             Devenez un conducteur de bateau
-            </button>
+            </button></a> 
           </Col>
         </Row>
       </Container>
