@@ -9,7 +9,7 @@ const PaymentMethod = () => {
     <>
       <div className="payment">
         <label htmlFor="" className="d-flex align-items-center gap-2">
-          <input type="radio" /> Direct Bank Transfer
+          <input type="radio" /> Virement bancaire
         </label>
       </div>
 
