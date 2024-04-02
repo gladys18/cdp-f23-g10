@@ -85,7 +85,8 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>France</h4>
-                  <h6>Dieppe, France</h6>
+                  <h6>1 Quai du Tonkin,
+76200 Dieppe</h6>
                 </div>
               </div>
             </Col>
@@ -97,7 +98,7 @@ const Header = () => {
                 </span>
                 <div className="header__location-content">
                   <h4>De Dimanche a Vendredi</h4>
-                  <h6>10am - 7pm</h6>
+                  <h6>10h - 19h</h6>
                 </div>
               </div>
             </Col>
