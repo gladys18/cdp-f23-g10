@@ -68,13 +68,15 @@ const Contact = () => {
 
                 <div className=" d-flex align-items-center gap-4 mt-3">
                   {socialLinks.map((item, index) => (
-                    <Link
-                      to={item.url}
-                      key={index}
-                      className="social__link-icon"
+                    <a 
+                    href={item.url} // Change 'Link' to 'a' for external links
+                    key={index}
+                    className="social__link-icon"
+                    target="_blank" // Opens the link in a new tab
+                    rel="noopener noreferrer" // Recommended for security reasons
                     >
                       <i class={item.icon}></i>
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>

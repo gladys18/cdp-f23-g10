@@ -13,7 +13,7 @@ import BecomeDriverSection from "../components/UI/BecomeDriverSection";
 import Testimonial from "../components/UI/Testimonial";
 
 import BlogList from "../components/UI/BlogList";
-
+import persona from '../assets/all-images/persona.png'
 const Home = () => {
   return (
     <Helmet title="Home">
@@ -26,7 +26,7 @@ const Home = () => {
             <Row className="form__row">
               <Col lg="4" md="4">
                 <div className="find__cars-left">
-                <h2>Trouvez votre meilleur bateau ici</h2>
+                  <h2>Trouvez votre meilleur bateau ici</h2>
                 </div>
               </Col>
 
@@ -44,8 +44,15 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <h6 className="section__subtitle">Explorez nos</h6>
-              <h2 className="section__title">Services Populaires</h2>
+              <div className=" d-flex align-items-center gap-2">
+                <div>
+                  <h6 className="section__subtitle">Explorez nos</h6>
+                  <h2 className="section__title">Services Populaires</h2>
+                </div>
+                <img src={persona} style={{ width: "40px" }} />
+              </div>
+
+
             </Col>
 
             <ServicesList />
