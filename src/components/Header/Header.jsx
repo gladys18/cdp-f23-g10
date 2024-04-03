@@ -8,7 +8,7 @@ import logo from "../../assets/all-images/logo-2.jpg"
 const navLinks = [
   {
     path: "/home",
-    display: "Acceuil",
+    display: "Accueil",
   },
   {
     path: "/about",

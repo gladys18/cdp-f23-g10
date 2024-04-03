@@ -8,11 +8,11 @@ const FindCarForm = () => {
     <Form className="form">
       <div className=" d-flex align-items-center justify-content-between flex-wrap">
         <FormGroup className="form__group">
-          <input type="text" placeholder="From address" required />
+          <input type="text" placeholder="De" required />
         </FormGroup>
 
         <FormGroup className="form__group">
-          <input type="text" placeholder="To address" required />
+          <input type="text" placeholder="à" required />
         </FormGroup>
 
         <FormGroup className="form__group">
@@ -23,7 +23,7 @@ const FindCarForm = () => {
           <input
             className="journey__time"
             type="time"
-            placeholder="Journey time"
+            placeholder="Début"
             required
           />
         </FormGroup>

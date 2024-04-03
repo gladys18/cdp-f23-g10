@@ -8,20 +8,12 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "#",
+    url: "https://www.facebook.com/profile.php",
     icon: "ri-facebook-line",
   },
   {
-    url: "#",
+    url: "https://www.instagram.com/sailingloc68/",
     icon: "ri-instagram-line",
-  },
-  {
-    url: "#",
-    icon: "ri-linkedin-line",
-  },
-  {
-    url: "#",
-    icon: "ri-twitter-line",
   },
 ];
 
@@ -37,10 +29,10 @@ const Contact = () => {
 
               <Form>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Your Name" type="text" />
+                  <Input placeholder="Nom" type="text" />
                 </FormGroup>
                 <FormGroup className="contact__form">
-                  <Input placeholder="Email" type="email" />
+                  <Input placeholder="Mail" type="email" />
                 </FormGroup>
                 <FormGroup className="contact__form">
                   <textarea
@@ -63,7 +55,7 @@ const Contact = () => {
                   Dieppe, France
                 </p>
                 <div className=" d-flex align-items-center gap-2">
-                  <h6 className="fs-6 mb-0">Phone:</h6>
+                  <h6 className="fs-6 mb-0">Téléphone:</h6>
                   <p className="section__description mb-0">+33 6 58 97 66 11</p>
                 </div>
 
