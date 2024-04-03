@@ -4,10 +4,11 @@ import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
 import carData from "../assets/data/carData";
-
+import persona from "../assets/all-images/persona.png"
 const CarListing = () => {
   return (
     <Helmet title="Boats">
+      
       <CommonSection title="Nos Bateaux" />
 
       <section>

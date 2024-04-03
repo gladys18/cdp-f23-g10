@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import { Link, NavLink } from "react-router-dom";
 import "../../styles/header.css";
 import logo from "../../assets/all-images/logo-2.jpg"
-
+import persona from "../../assets/all-images/persona.png"
 const navLinks = [
   {
     path: "/home",
