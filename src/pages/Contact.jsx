@@ -8,7 +8,7 @@ import "../styles/contact.css";
 
 const socialLinks = [
   {
-    url: "https://www.facebook.com/profile.php",
+    url: "https://www.facebook.com/profile.php?id=61557114965962",
     icon: "ri-facebook-line",
   },
   {
