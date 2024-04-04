@@ -9,24 +9,24 @@ const BookingForm = () => {
   return (
     <Form onSubmit={submitHandler}>
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Nom" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="Last Name" />
+        <input type="text" placeholder="Prenom" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="email" placeholder="Email" />
+        <input type="email" placeholder="Mail" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="number" placeholder="Phone Number" />
+        <input type="number" placeholder="Numéro de téléphone" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="text" placeholder="From Address" />
+        <input type="text" placeholder="De" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
-        <input type="text" placeholder="To Address" />
+        <input type="text" placeholder="à" />
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
@@ -49,12 +49,12 @@ const BookingForm = () => {
       </FormGroup>
 
       <FormGroup className="booking__form d-inline-block me-4 mb-4">
-        <input type="date" placeholder="Journey Date" />
+        <input type="date" placeholder="Date" />
       </FormGroup>
       <FormGroup className="booking__form d-inline-block ms-1 mb-4">
         <input
           type="time"
-          placeholder="Journey Time"
+          placeholder="Heure"
           className="time__picker"
         />
       </FormGroup>
