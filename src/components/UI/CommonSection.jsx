@@ -6,11 +6,11 @@ const CommonSection = ({ title }) => {
   return (
     <section className="common__section mb-5">
       <Container className="text-center">
-      <div className=" d-flex align-items-center gap-2">
-        <img src={persona} style={{width:"40px"}} />
-        <h1 className="text-light">{title}</h1>
-            </div>
         
+
+          <h1 className="text-light">{title}</h1>
+        
+
       </Container>
     </section>
   );

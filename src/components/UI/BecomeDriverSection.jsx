@@ -24,7 +24,7 @@ const BecomeDriverSection = () => {
               <h2 className="section__title become__driver-title">
                 Tu veux gagner avec nous ? Alors ne sois pas en retard
               </h2>
-              <img src={persona} style={{ width: "60px" }} />
+              
             </div>
             <a href="permit"><button className="btn become__driver-btn mt-4">
               Devenez un conducteur de bateau

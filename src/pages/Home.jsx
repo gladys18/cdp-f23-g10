@@ -44,13 +44,12 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12" className="mb-5 text-center">
-              <div className=" d-flex align-items-center gap-2">
+              
                 <div>
                   <h6 className="section__subtitle">Explorez nos</h6>
                   <h2 className="section__title">Services Populaires</h2>
                 </div>
-                <img src={persona} style={{ width: "40px" }} />
-              </div>
+                
 
 
             </Col>
