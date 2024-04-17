@@ -76,8 +76,8 @@ const BlogDetails = () => {
 
                   <Form>
                     <FormGroup className=" d-flex gap-3">
-                      <Input type="text" placeholder="Full name" />
-                      <Input type="email" placeholder="Email" />
+                      <Input type="text" placeholder="Entrez votre nom" />
+                      <Input type="email" placeholder="Entrez votre addresse email" />
                     </FormGroup>
 
                     <FormGroup>
