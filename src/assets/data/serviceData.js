@@ -16,7 +16,7 @@ const serviceData = [
     {
       id: 3,
       title: "Location de bateaux avec skipper ",
-      icon: "ri-boat-line",
+      icon: "ri-sailboat-fill",
       desc: "Profitez d'une expérience de navigation sans tracas en louant un bateau avec un skipper expérimenté. Notre équipe de skippers qualifiés vous guidera à travers les eaux, vous permettant de vous détendre et de profiter pleinement de votre excursion en toute sécurité.",
     },
   

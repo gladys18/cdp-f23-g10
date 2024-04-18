@@ -15,6 +15,10 @@ const socialLinks = [
     url: "https://www.instagram.com/sailingloc68/",
     icon: "ri-instagram-line",
   },
+  {
+    url: "https://pin.it/3jxLVacjG ",
+    icon: "ri-pinterest-line",
+  },
 ];
 
 const Contact = () => {
