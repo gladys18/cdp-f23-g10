@@ -9,6 +9,7 @@ import BlogDetails from "../pages/BlogDetails";
 import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import BoatPermitForm from "../components/UI/BoatPermit";
+import CGU from "../pages/CGU";
 
 const Routers = () => {
   return (
@@ -23,6 +24,7 @@ const Routers = () => {
       <Route path="/contact" element={<Contact />} />
       <Route path="*" element={<NotFound />} />
       <Route path="/permit" element={<BoatPermitForm/>}/>
+      <Route path="/CGU" element={<CGU/>}/>
     </Routes>
   );
 };
