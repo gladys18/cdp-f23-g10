@@ -10,6 +10,8 @@ import NotFound from "../pages/NotFound";
 import Contact from "../pages/Contact";
 import BoatPermitForm from "../components/UI/BoatPermit";
 import CGU from "../pages/CGU";
+import LoginForm from "../pages/Login";
+import RegisterForm from "../pages/Register";
 
 const Routers = () => {
   return (
@@ -25,6 +27,8 @@ const Routers = () => {
       <Route path="*" element={<NotFound />} />
       <Route path="/permit" element={<BoatPermitForm/>}/>
       <Route path="/CGU" element={<CGU/>}/>
+      <Route path="/login" element={<LoginForm/>}/>
+      <Route path="/register" element={<RegisterForm/>}/>
     </Routes>
   );
 };
