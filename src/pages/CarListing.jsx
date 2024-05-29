@@ -1,11 +1,15 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Container, Row, Col } from "reactstrap";
 import Helmet from "../components/Helmet/Helmet";
 import CommonSection from "../components/UI/CommonSection";
 import CarItem from "../components/UI/CarItem";
 import carData from "../assets/data/carData";
 import persona from "../assets/all-images/persona.png"
+import ReactGA from "react-ga"
 const CarListing = () => {
+  useEffect(()=>{
+    ReactGA.pageview(window.location.pathname)
+  })
   return (
     <Helmet title="Boats">
       

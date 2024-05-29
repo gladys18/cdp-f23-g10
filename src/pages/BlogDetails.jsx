@@ -5,9 +5,11 @@ import { useParams } from "react-router-dom";
 import blogData from "../assets/data/blogData.js";
 import Helmet from "../components/Helmet/Helmet";
 import { Link } from "react-router-dom";
-
+import ReactGA from "react-ga"
 import commentImg from "../assets/all-images/ava-1.jpg";
-
+useEffect(()=>{
+  ReactGA.pageview(window.location.pathname)
+})
 import "../styles/blog-details.css";
 
 const BlogDetails = () => {

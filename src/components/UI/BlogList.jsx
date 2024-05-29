@@ -1,22 +1,27 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Col } from "reactstrap";
 import "../../styles/blog-item.css";
 import { Link } from "react-router-dom";
 import blogData from "../../assets/data/blogData";
 
+import ReactGA from "react-ga"
 const BlogList = () => {
   return (
     <>
       {blogData.map((item) => (
+        
         <BlogItem item={item} key={item.id} />
       ))}
     </>
   );
 };
-
+useEffect(()=>{
+  ReactGA.pageview(window.location.pathname)
+})
 const BlogItem = ({ item }) => {
+  
   const { imgUrl, title, author, date, description, time } = item;
-
+  
   return (
     <Col lg="4" md="6" sm="6" className="mb-5">
       <div className="blog__item">

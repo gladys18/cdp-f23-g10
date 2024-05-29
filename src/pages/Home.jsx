@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 import HeroSlider from "../components/UI/HeroSlider";
 import Helmet from "../components/Helmet/Helmet";
@@ -14,6 +14,10 @@ import Testimonial from "../components/UI/Testimonial";
 
 import BlogList from "../components/UI/BlogList";
 import persona from '../assets/all-images/persona.png'
+import ReactGA from "react-ga"
+useEffect(()=>{
+  ReactGA.pageview(window.location.pathname)
+})
 const Home = () => {
   return (
     <Helmet title="Home">

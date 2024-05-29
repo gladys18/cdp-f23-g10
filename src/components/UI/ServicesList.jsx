@@ -1,8 +1,11 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Col } from "reactstrap";
 import "../../styles/services-list.css";
 import servicesData from "../../assets/data/serviceData";
-
+import ReactGA from "react-ga"
+useEffect(()=>{
+  ReactGA.pageview(window.location.pathname)
+})
 const ServicesList = () => {
   return (
     <>

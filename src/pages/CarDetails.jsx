@@ -6,12 +6,14 @@ import Helmet from "../components/Helmet/Helmet";
 import { useParams } from "react-router-dom";
 import BookingForm from "../components/UI/BookingForm";
 import PaymentMethod from "../components/UI/PaymentMethod";
-
+import ReactGA from "react-ga"
 const CarDetails = () => {
   const { slug } = useParams();
 
   const singleCarItem = carData.find((item) => item.carName === slug);
-
+  useEffect(()=>{
+    ReactGA.pageview(window.location.pathname)
+  })
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [singleCarItem]);
